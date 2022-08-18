@@ -16,7 +16,7 @@ function Button({ color = "default", children, onClick }) {
 
   return (
     <S.Button backgroundColor={selectedColor(color)} onClick={onClick}>
-      {children}
+      {children.toUpperCase()}
     </S.Button>
   );
 }
