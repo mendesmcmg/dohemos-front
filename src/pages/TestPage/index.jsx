@@ -1,5 +1,5 @@
 import CardImage from "../../components/CardImage";
-import HemocentroImage from "/home/clara/Documentos/unb-codigos/si/dohemos-front/src/assets/hemocentro.png";
+import HemocentroImage from "../../../src/assets/hemocentro.png";
 
 function TestPage() {
   console.log("TestPage");
