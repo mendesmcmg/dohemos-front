@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import AboutUsPage from "./pages/AboutUs";
 import AlmostTherePage from "./pages/AlmostThere";
 import LoginPage from "./pages/Login";
+import PersonalInfoPage from "./pages/PersonalInfo";
 import TestPage from "./pages/TestPage";
 
 function RoutesComponent() {
@@ -12,6 +13,7 @@ function RoutesComponent() {
       <Route path="/about-us" element={<AboutUsPage />} />
       <Route path="/almost-there" element={<AlmostTherePage />} />
       <Route path="/login" element={<LoginPage />} />
+      <Route path="/personal-info" element={<PersonalInfoPage />} />
     </Routes>
   )
 }
