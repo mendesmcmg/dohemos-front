@@ -1,6 +1,6 @@
 import Button from "../../components/Button";
 import CardImage from "../../components/CardImage";
-import HemocentroImage from "/home/clara/Documentos/unb-codigos/si/dohemos-front/src/assets/hemocentro.png";
+import HemocentroImage from "../../assets/hemocentro.png";
 
 function TestPage() {
   return (
