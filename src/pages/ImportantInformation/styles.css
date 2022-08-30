@@ -1,0 +1,80 @@
+html {
+  background: #C9C9C9;
+  height: 100%;
+  font-family: 'Roboto', cursive;
+}
+
+.conteudo {
+  padding: 10vh 20em 10px 20em;
+  display: flex;
+  align-items: flex-start;
+  gap: 2em;
+}
+
+.principal {
+  flex-grow: 1;
+  flex-basis: auto;
+  min-width: 600px;
+  padding: 4em 4em 4em;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  border-radius: 10px;
+  gap: 2em;
+}
+
+h1 {
+  margin-block-start: 0em;
+  margin-block-end: 0.80em;
+
+}
+
+.adicionar {
+  width: 100%;
+}
+
+.adicionar input {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0.5em 0 1em;
+  padding: 1em 0.5em;
+  border-radius: 10px;
+  border: 2px solid #EAEAEA;
+}
+
+.adicionar .texto {
+  display: block;
+}
+
+.adicionar p {
+  background-color: #C9C9C9;
+}
+
+.cadastrar {
+  background-color: #890E06;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.voltar {
+  background-color: #24CEB7;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+}
+
+form label, form legend {
+display:block;
+font-size: 20px;
+margin: 0 0 10px;
+}
+
+.checkbox {
+  display:block;
+margin: 20px 0;
+}
+
+.situaçãoA{
+  display: inline-block;
+}
+
