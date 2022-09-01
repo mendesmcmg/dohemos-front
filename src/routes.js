@@ -4,13 +4,14 @@ import AlmostTherePage from "./pages/AlmostThere";
 import EditProfilePage from "./pages/EditProfile";
 import ImportantInformationPage from "./pages/ImportantInformation";
 import LoginPage from "./pages/Login";
+import MainPage from "./pages/MainPage";
 import PersonalInfoPage from "./pages/PersonalInfo";
 import TestPage from "./pages/TestPage";
 
 function RoutesComponent() {
   return (
     <Routes>
-      <Route path="/" element={<TestPage />} />
+      <Route path="/" element={<MainPage />} />
       <Route path="/teste" element={<TestPage />} />
       <Route path="/about-us" element={<AboutUsPage />} />
       <Route path="/almost-there" element={<AlmostTherePage />} />
