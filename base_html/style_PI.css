@@ -1,0 +1,120 @@
+html {
+    background: #C9C9C9;
+    height: 100%;
+    font-family: 'Roboto', cursive;
+}
+
+header {
+	background: #FFFFFF;
+	padding: 0vh 0em 0px 0em;
+    margin: 0vh 0em 0px 0em;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 50px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav #nome{
+	display: inline;
+	margin: 0 0 0 100px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #890E06;
+	text-decoration: underline;
+}
+
+h2 {
+	color: #000000;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+
+}
+
+.conteudo {
+    padding: 10vh 20em 50px 20em;
+    /*display: flex;
+    align-items: flex-start;*/
+    gap: 2em;
+}
+
+.principal {
+    flex-grow: 1;
+    flex-basis: auto;
+    min-width: 600px;
+    padding: 4em 4em 4em;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border-radius: 10px;
+    gap: 2em;
+}
+
+.principal img {
+    display: block;
+}
+
+
+.adicionar {
+    width: 100%;
+}
+
+.adicionar input {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0.5em 0 1em;
+    padding: 1em 0.5em;
+    border-radius: 10px;
+    border: 2px solid #EAEAEA;
+}
+
+.adicionar label {
+    display: block;
+}
+
+.cadastrar {
+    background-color: #890E06;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+#hemocentro {
+    display: block;
+    padding: 100vh 100em 100px 100em;
+}
+/*
+h1 .titulo-principal{
+    font-size: 100%;
+    padding: 100vh 100em 100px 100em;
+}*/
+
+#cadastrar {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0.5em 0 1em;
+    padding: 1em 0.5em;
+    border-radius: 10px;
+    border: 2px solid #EAEAEA;
+}
